@@ -23,4 +23,5 @@ sudo apt install python3-notebook jupyter jupyter-core python-ipykernel
 jupyter notebook --ip <your_LAN_ip> --port 8888
 
 ### Install required ml libs neede, such as following are for python over scikit framework
-pip3 install pandas sklearn numpy matplotlib 
+pip3 install sklear 
+pip3 install numpy scipy joblib threadpoolctl cython matplotlib scikit-image pandas seaborn memory_profiler pytest pytest-cov flake8 pyamg sphinx sphinx-gallery numpydoc pillow sphinx-prompt
