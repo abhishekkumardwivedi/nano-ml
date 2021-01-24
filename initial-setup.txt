@@ -2,6 +2,7 @@
 sudo apt install python3-pip
 sudo apt install python3-dev
 sudo -H pip3 install --upgrade pip
+sudo apt install ipython
 
 ### Install NodeJs
 sudo apt install npm
@@ -14,3 +15,9 @@ sudo jupyter labextension install @jupyter-widgets/jupyterlab-manager
 sudo jupyter labextension install @jupyterlab/statusbar
 jupyter lab --generate-config
 jupyter notebook password
+
+### For any issue, install following way
+sudo apt install python3-notebook jupyter jupyter-core python-ipykernel
+
+### To access Jupyter from remote machine
+jupyter notebook --ip <your_LAN_ip> --port 8888
